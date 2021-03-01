@@ -17,4 +17,5 @@ RUN mkdir /usr/local/nvidia/lib64/
 RUN cp cuda/include/cudnn.h /usr/local/nvidia/include/
 RUN cp cuda/lib64/libcudnn* /usr/local/nvidia/lib64/
 RUN chmod a+r /usr/local/nvidia/include/cudnn.h /usr/local/nvidia/lib64/libcudnn*
-RUN pip3 install imageai
+#RUN cd /imageai/ImageAI/
+#RUN pip3 install .
