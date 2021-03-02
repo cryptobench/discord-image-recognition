@@ -2,3 +2,4 @@ cuda/
 data/test/
 data/train/
 *.DS_Store*
+users/
